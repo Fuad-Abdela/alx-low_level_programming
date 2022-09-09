@@ -1,14 +1,12 @@
 #include <stdio.h>
 
 /**
-*
 * main - Display memory size of variables
 *
 * Return: 0
 */
 
 int main(void)
-
 {
 
 	char ch;
