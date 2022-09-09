@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-
-
 /**
  *
- * * main - Prints "with proper grammar, but the ouptu is a piece of art,"
+ *  * main - Entry Point
  *
- * *
+ *   *
  *
- * * Return: Always 0 (Success)
+ *    * Return: Always 0 (Success)
  *
- * */
-
-
+ *     */
 
 int main(void)
 
