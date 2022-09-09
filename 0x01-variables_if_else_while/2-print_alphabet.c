@@ -1,32 +1,36 @@
 #include <stdio.h>
 
+#include <stdlib.h>
+
 /**
  *
- * *main - Begin Here
+ *  * main - main block
  *
- * *print a-z using putchar
+ *   * Description: Get a random number and check its last digit, compare it with 5
  *
- * *Return: Value 0 (true)
+ *    * Return: 0
  *
- * **/
+ *     */
 
 int main(void)
 
 {
 
-		char ch = 'a';
+		char c = 'a';
 
 
 
-			while (ch <= 'z')
+			while (c <= 'z')
 
 					{
 
-								putchar(ch);
+								putchar(c);
 
-										ch++;
+										c++;
 
 											}
+
+
 
 				putchar('\n');
 
