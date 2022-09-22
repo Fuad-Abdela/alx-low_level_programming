@@ -6,6 +6,7 @@
  * @s2: 2nd string
  * Return: 0 if matching, and ns1 - ns2 if not matching
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	int i, n;
