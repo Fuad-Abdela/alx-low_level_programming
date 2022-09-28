@@ -18,7 +18,6 @@ int _sqrt_recursion(int n)
  * @i: integer parameter
  * Return: sqrt
  */
-
 int _sqrt(int n, int i)
 {
 	if (n < 0)
@@ -31,6 +30,3 @@ int _sqrt(int n, int i)
 	return (_sqrt(n, i + 1));
 }
 
-Footer
-
-© 2022 Git
