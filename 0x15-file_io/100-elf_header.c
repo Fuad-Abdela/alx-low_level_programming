@@ -46,7 +46,7 @@ void print_magic(unsigned char *e_ident)
 	int index;
 
 	printf("  Magic:   ");
-	
+
 	for (index = 0; index < EI_NIDENT; index++)
 	{
 		printf("%02x", e_ident[index]);
@@ -113,7 +113,7 @@ void print_version(unsigned char *e_ident)
 {
 	printf("  Version:                           %d",
 		e_ident[EI_VERSION]);
-	
+
 	switch (e_ident[EI_VERSION])
 	{
 	case EV_CURRENT:
@@ -222,7 +222,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 void print_entry(unsigned long int e_entry, unsigned char *e_ident)
 {
 	printf("  Entry point address:               ");
-	
+
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
 	{
 	e_entry = ((e_entry << 8) & 0xFF00FF00) |
