@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
  * _strlen - finds the length of a string
@@ -9,6 +9,7 @@
 size_t _strlen(char *str)
 {
 	size_t i;
+
 	for (i = 0; str[i]; i++)
 		;
 	return (i);
